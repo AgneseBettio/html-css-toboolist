@@ -26,16 +26,27 @@ body{
     font-weight: bold;
 }
 #box-1{
-    margin: 30px 80px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 30px;
     background-color: #ffffff;
-    padding: 10px;
+    padding: 10px 30px;
 }
+#box-2{
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 3px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #ffffff;
+}
+
 button{
     display: inline-block;
     vertical-align: middle;
     border-radius: 4px;
     font-size: 16px;
-    padding: 10px;
+    padding: 10px 20px;
     border: 1px solid #848C91;
     background-color: #ffffff;
     color:#848C91;
