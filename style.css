@@ -7,10 +7,11 @@ body{
     background-color: #F6F8F9;
 }
 #logo-box{
-    height: 60px;
+    height: 70px;
     width: 100%;
     background-color: #ffffff;
-}
+    padding:10px;
+ }
 #logo-img{
     height: 50px;
     width: 50px;
@@ -20,16 +21,34 @@ body{
 #logo-title{
     display: inline-block;
     font-size: 35px;
-    vertical-align: middle; 
+    vertical-align: middle;
+    font-weight: bold;
 }
 #box-1{
-    height: 50px;
+    height: 60px;
     margin: 20px 80px;
     background-color: #ffffff;
-    border: 1px solid;
+    padding:10px;
 }
 #box-2{
     height: 50px;
     margin: 20px 80px;
     background-color: #ffffff;
+}
+button{
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #848C91;
+    background-color: #ffffff;
+    color:#848C91;
+    vertical-align: middle;
+    text-align: center;
+    vertical-align: middle;
+}
+button:hover{
+    background-color: #47ADF1;
+    color: #ffffff;
 }
