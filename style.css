@@ -25,17 +25,11 @@ body{
     font-weight: bold;
 }
 #box-1{
-    height: 60px;
     margin: 20px 80px;
     background-color: #ffffff;
     padding: 10px;
 }
-#box-2{
-    height: 500px;
-    margin: 20px 80px;
-    background-color: #ffffff;
-    padding: 20px;
-}
+
 button{
     display: inline-block;
     vertical-align: middle;
@@ -53,7 +47,11 @@ button:hover{
     background-color: #47ADF1;
     color: #ffffff;
 }
-.list-1{
+.box-list{
+    margin: 20px 80px;
+}
+
+h3{
     font-weight: bold;
 }
 li{
@@ -62,7 +60,6 @@ li{
 .badge{
     display: inline-block;
     border-radius: 4px;
-
 }
 #badge1{
     background-color:#45ABEA;
