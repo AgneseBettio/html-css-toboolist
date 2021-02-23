@@ -25,11 +25,10 @@ body{
     font-weight: bold;
 }
 #box-1{
-    margin: 20px 80px;
+    margin: 30px 80px;
     background-color: #ffffff;
     padding: 10px;
 }
-
 button{
     display: inline-block;
     vertical-align: middle;
@@ -41,34 +40,62 @@ button{
     color:#848C91;
     vertical-align: middle;
     text-align: center;
-    vertical-align: middle;
 }
 button:hover{
     background-color: #47ADF1;
     color: #ffffff;
 }
 .box-list{
-    margin: 20px 80px;
+    margin: 30px 80px;
 }
 
 h3{
     font-weight: bold;
     font-size: 30px;
 }
+.bullet{
+    display: inline-block;
+    font-size: 15px;
+    height:30px;
+    margin: 2px;
+    }
 li{
     list-style-type: none;
-}
+} 
 #done{
     display: inline-block;
     color: #64C0A9;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 20px;
+    border: 2px solid #64C0A9; 
+    background-color: transparent;
+    margin: 2px;
 }
 #undone{
     display: inline-block;
     color: #EB342D;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 20px;
+    border: 2px solid #EB342D; 
+    background-color: transparent;
+    margin: 2px;
 }
 .badge{
     display: inline-block;
     border-radius: 4px;
+    height: 25px;
+    line-height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    margin: 2px;    
 }
 #badge1{
     background-color:#45ABEA;
